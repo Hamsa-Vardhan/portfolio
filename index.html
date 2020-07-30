@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <title>HAVA Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+	</head>
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		.nav-link:hover{
+			border-bottom: 1px solid blue;
+		}
+		.nav-link:active{
+			border-bottom: 15px solid violet;
+		}
+		.projects_item > .img-fluid{
+			height: 330px;
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+			filter: brightness(50%);
+		}
+		.projects_item > .img-fluid:hover{
+			cursor: pointer;
+		}
+		.project_btn{
+			padding : 0.5rem 1rem;
+			margin: 0.5rem;
+			border-radius: 0.3rem;
+			text-align: center;
+			background-color: #7f5a83;
+			background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+			color: white;
+			font-size: 1rem !important;
+		}
+		.project_btn:hover{
+			cursor: pointer;
+			color : #7F5A83;
+			background: white;
+		}
+		.project_btn:active{
+			box-shadow: inset 0px 0px 0.5rem 1px #7F5A83;
+			user-select: none;
+		}
+	</style>
+    <body>        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><h3>Hamsa Vardhan</h3></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html" style="font-size: 0.9rem;">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="about.html" style="font-size: 0.9rem;">About</a></li> 
+								<li class="nav-item"> <a class="nav-link" href="projects.html" style="font-size: 0.9rem;">Projects</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contact" style="font-size: 0.9rem;">Contact</a></li>
+								<li class="nav-item"> <a class="nav-link" href="https://hava-resume.netlify.app/" target="_blank" style="font-size: 0.9rem;">Resume</a> </li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="home_left_img">
+								<img style = "padding-bottom: 10rem;" src="./images/my_pic.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="banner_content">
+								<h5>This is me</h5>
+								<h2>Hamsa Vardhan</h2>
+								<p style="font-size: 1rem;">An enthusiastic <b>web developer</b>  trying to pave his way towards enriching web.</p>
+								<a class="banner_btn" href="#Projects">View Projects</a>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Myself</h4>
+        					<p style="font-size : 1rem">I am a fervent web developer with great enthusiasm to enrich web. I prefer to keep learning, continue challenging myself, and do interesting things that matter. My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease</p>
+							<div class="row">
+        						<h4 class="col-md-4">
+									Graduation
+								</h4>
+								<h5 class="col-md-4 offset-md-4">
+									<i> 2016 - 2020 </i>
+								</h5>
+								<p style="font-size: 1rem;margin-left: 1rem;">
+									I am a graduate from <code><b style="font-size: 1.2rem;">SRM University</b></code>.I have pursued a degree in <code>Electronics and Communication Engineering</code> with an aggregate of 85%.
+								</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<h3>Skills Expertness</h3>
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>Angular <span class="counter">80</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>React JS <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>NodeJs (Express) <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Flask <span class="counter">75</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>MongoDB <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>MySQL <span class="counter">80</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================Feature Area =================-->        <!--================End Feature Area =================-->
+        
+        <!--================Projects Area =================-->
+        <section class="projects_area p_120" id="Projects">
+        	<div class="container">
+        		<div class="main_title">
+					<h2>Recent Completed Projects</h2>
+					<p><a href="projects.html" class="banner_btn">Projects Full View</a></p>
+				</div>
+        		<div class="projects_fillter">
+					<ul class="filter list">
+						<li class="active" data-filter="*"><a href="#" style="font-size: 1.1rem;">All Projects</a></li>
+						<li data-filter=".full"><a href="#" style="font-size: 1.1rem;">Full Stack</a></li>
+						<li data-filter=".front"><a href="#" style="font-size: 1.1rem;">Front End</a></li>
+						<li data-filter=".package"><a href="#" style="font-size: 1.1rem;">Packages</a></li>
+						<li data-filter=".working"><a href="#" style="font-size: 1.1rem;"> Working </a></li>
+					</ul>
+				</div>
+				<div class="projects_inner row">
+					<div class="col-lg-4 col-sm-6 full">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/chat.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hava-chat.netlify.app" target="_blank"><h4 style="color: white;">Personalized Chat</h4></a>
+								<a class="project_btn" target="_blank" href="https://github.com/Hamsa-Vardhan/Chat"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/covid.jpg" alt="">
+							<div class="projects_text">
+								<a href="https://covid19-visualizer-hamsavardhan.netlify.app" target="_blank"><h4 style="color: white;">Covid-19 Visualizer</h4></a>
+								<a class="project_btn" target="_blank" href="https://github.com/Hamsa-Vardhan/covid19-visualizer-HamsaVardhan" > <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 full">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/url.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hamsavardhan-urlshortener-frontend.netlify.app" target="_blank"><h4 style="color: white;">Url Shortener</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/urlshortener-frontend" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 full">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/razorpay.png" alt="">
+							<div class="projects_text">
+								<a href="https://razorpay-checkout-hamsavardhan.netlify.app" target="_blank"><h4 style="color: white;">Razor Pay Checkout</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/razorpay-checkout-hamsavardhan" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/github.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hava-github-replica.netlify.app" target="_blank"><h4 style="color: white;">Github Replica</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/github-replica" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 package">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/npm.jpg" alt="">
+							<div class="projects_text">
+								<a href="https://www.npmjs.com/package/lodashlite" target="_blank"><h4 style="color: white;">lodashLite Package</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/lodashLite" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/nytimes.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hamsavardhan-nytimes-content.netlify.app/" target="_blank"><h4 style="color: white;">NY Times inshort</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/ny-times" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/cricket.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hamsavardhan-cric-isfun.netlify.app/" target="_blank"><h4 style="color: white;">Mini Cricket</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/play-cricket" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/tictactoe.jpg" alt="">
+							<div class="projects_text">
+								<a href="https://hava-tictactoe.netlify.app/" target="_blank"><h4 style="color: white;">Tic Tac Toe</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/tic-tac-toe" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/weather.jpeg" alt="">
+							<div class="projects_text">
+								<a href="https://hamsavardhan-allcountries-weather.netlify.app/" target="_blank"><h4 style="color: white;">Country Weather Details</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/country-weather" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/scheduler.JPG" alt="">
+							<div class="projects_text">
+								<a href="https://hava-daysandtopics.netlify.app/" target="_blank"><h4 style="color: white;">Topic Scheduler</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/preSchedule/tree/master/pre-schedule" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 front">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/pricing.JPG" alt="">
+							<div class="projects_text">
+								<a href="https://hava-pricing-cards.netlify.app/" target="_blank"><h4 style="color: white;">Pricing Cards</h4></a>
+								<a class="project_btn" href="https://github.com/Hamsa-Vardhan/pricing-cards" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 working">
+						<div class="projects_item">
+							<img class="img-fluid" src="images/meeting.jpeg" alt="">
+							<div class="projects_text">
+								<a href="#"><h4 style="color: white;">zoom replica</h4></a>
+								<a class="project_btn" href="#"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							</div>
+						</div>
+					</div>
+				</div>
+        	</div>
+        </section>
+        <!--================End Projects Area =================-->
+        
+        <!--================Testimonials Area =================-->
+
+        <!--================End Testimonials Area =================-->
+        
+		<!--================Latest Blog Area =================-->
+
+        <!--================End Latest Blog Area =================-->
+        
+        <!--================Footer Area =================-->
+		<footer class="footer_area p_120" id="contact">
+        	<div class="container-fluid">
+        		<div class="row footer_inner justify-content-around">
+					<a href="mailto:hamsavardhan99@gmail.com" target="_blank" class="col-lg-2 col-sm-5 banner_btn text-center m-2" style="font-size: 1.2rem;"><i class="fa fa-envelope" style="margin-right: 0.5rem;"></i>mail</a>
+					<a href="https://github.com/Hamsa-Vardhan" target="_blank" class="col-lg-2 col-sm-5 banner_btn text-center m-2" style="font-size: 1.2rem;"><i class="fa fa-github" style="margin-right: 0.5rem;"></i> github</a>
+					<a href="https://linkedin.com/in/hamsavardhans-profile" target="_blank" class="col-lg-2 col-sm-5 banner_btn text-center m-2" style="font-size: 1.2rem;"><i class="fa fa-linkedin" style="margin-right: 0.5rem;"></i>linkedin</a>
+					<a href="https://instagram.com/hamsa_vardhan/" target="_blank" class="col-lg-2 col-sm-5 banner_btn text-center m-2" style="font-size: 1.2rem;"> <i class="fa fa-instagram" style="margin-right: 0.5rem;"></i>instagram</a>
+        		</div>
+        	</div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
