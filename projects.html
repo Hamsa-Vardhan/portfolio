@@ -94,14 +94,14 @@
         
         <!--================Home Banner Area =================-->
         <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
+            <div class="banner_inner d-flex align-items-center" style="background-color: #f1f1fa;">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
 						<h2>Projects</h2>
 						<div class="page_link">
 							<a href="index.html">Home</a>
-							<a href="portfolio-details.html">Projects</a>
+							<a href="projects.html">Projects</a>
 						</div>	
 					</div>
 				</div>
@@ -110,181 +110,191 @@
         <!--================End Home Banner Area =================-->
         
         <!--================Portfolio Details Area =================-->
-        <section class="portfolio_details_area p_120">
-        	<div class="container">
-        		<div class="portfolio_details_inner">
-					<div class="row" style="min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" src="images/chat.jpeg" alt="">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">Personalized Chat</h2>
-								<p style="font-size: 1rem;">Login to your account(Authentication included).Find your friends and chat.There is a room chat too.Join a room or create a room of your own.Ask your friends to join in same room and chat.There is an add a friend option. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Nodejs(Express), ReactJs, MongoDB </b> </li>
-								</ul>
-								<div style="display:flex; flex-wrap: wrap; justify-content: space-around;">
-									<a href="https://hava-chat.netlify.app/" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/Chat" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in git</a>
-								</div>
-							</div>
-						</div>
+        <section class="portfolio_details_area projects_area p_120">
+        	<div class="container" style="padding-top: 2rem;">
+        		<div class="portfolio_details_inner" id="projects">
+					<div class="projects_fillter row justify-content-around">
+						<ul class="filter list">
+							<li class="active" data-filter="*"><a href="#" style="font-size: 1.1rem;">All Projects</a></li>
+							<li data-filter=".full"><a href="#" style="font-size: 1.1rem;">Full Stack</a></li>
+							<li data-filter=".front"><a href="#" style="font-size: 1.1rem;">Front End</a></li>
+							<li data-filter=".package"><a href="#" style="font-size: 1.1rem;">Packages</a></li>
+						</ul>
 					</div>
-					<div class="row" style="margin-top: 5rem;min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" src="images/url.jpeg" alt="">
+					<div class="projects_inner row container-fluid">
+						<div class="row full projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" src="images/chat.jpeg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">Url Shortener</h2>
-								<p style="font-size: 1rem;">Create an account. Activate it through mail. Have an forgot password option too. Enter into dashboard. Enter annoying long url to get peaceful short url. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Nodejs(Express), Angular , MongoDB </b> </li>
-								</ul>
-								<div style="margin-top:2rem;display: flex; flex-wrap: wrap; justify-content: space-around">
-									<a href="https://hamsavardhan-urlshortener-frontend.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/urlshortener-frontend" class="banner_btn" style="font-size: 1rem;margin-top: 1rem; margin-bottom: 1rem;">view in  git</a>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">Personalized Chat</h2>
+									<p style="font-size: 1rem;">Login to your account(Authentication included).Find your friends and chat.There is a room chat too.Join a room or create a room of your own.Ask your friends to join in same room and chat.There is an add a friend option. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Nodejs(Express), ReactJs, MongoDB </b> </li>
+									</ul>
+									<div style="display:flex; flex-wrap: wrap; justify-content: space-around;">
+										<a href="https://hava-chat.netlify.app/" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/Chat" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row" style="margin-top: 5rem;min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" src="images/covid.jpg" alt="">
+						<div class="row full projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" src="images/url.jpeg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">Covid-19 Visualizer</h2>
-								<p style="font-size: 1rem;">create an account. Login to view current status of covid cases. statewise activity details are also available with chart based presentation. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Angular </b> </li>
-								</ul>
-								<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
-									<a href="https://covid19-visualizer-hamsavardhan.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/covid19-visualizer-HamsaVardhan" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">Url Shortener</h2>
+									<p style="font-size: 1rem;">Create an account. Activate it through mail. Have an forgot password option too. Enter into dashboard. Enter annoying long url to get peaceful short url. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Nodejs(Express), Angular , MongoDB </b> </li>
+									</ul>
+									<div style="margin-top:2rem;display: flex; flex-wrap: wrap; justify-content: space-around">
+										<a href="https://hamsavardhan-urlshortener-frontend.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/urlshortener-frontend" class="banner_btn" style="font-size: 1rem;margin-top: 1rem; margin-bottom: 1rem;">view in  git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row" style="margin-top: 5rem;min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" src="images/razorpay.png" alt="">
+						<div class="row front projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" src="images/covid.jpg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">Razorpay Checkout</h2>
-								<p style="font-size: 1rem;"> A basic integration of razorpay payment gateway.we can go in pay and buy for dupe items.money will be refunded after 3 days of transaction. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Angular, Flask </b> </li>
-								</ul>
-								<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
-									<a href="https://razorpay-checkout-hamsavardhan.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/razorpay-checkout-hamsavardhan" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">Covid-19 Visualizer</h2>
+									<p style="font-size: 1rem;">create an account. Login to view current status of covid cases. statewise activity details are also available with chart based presentation. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Angular </b> </li>
+									</ul>
+									<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
+										<a href="https://covid19-visualizer-hamsavardhan.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/covid19-visualizer-HamsaVardhan" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row" style="margin-top: 5rem;min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" src="images/github.jpeg" alt="">
+						<div class="row full projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" src="images/razorpay.png" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">Github Replica</h2>
-								<p style="font-size: 1rem;">we can search for a repo or a user after entering to webapp. If wanted to know more user will be redirected to original repo. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> ReactJs </b> </li>
-								</ul>
-								<div style="margin-top:2rem;display: flex; flex-wrap: wrap; justify-content: space-around">
-									<a href="https://hava-github-replica.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/github-replica" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">Razorpay Checkout</h2>
+									<p style="font-size: 1rem;"> A basic integration of razorpay payment gateway.we can go in pay and buy for dupe items.money will be refunded after 3 days of transaction. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> Angular, Flask </b> </li>
+									</ul>
+									<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
+										<a href="https://razorpay-checkout-hamsavardhan.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/razorpay-checkout-hamsavardhan" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row" style="margin-top: 5rem;min-height: 60vh;">
-						<div class="col-md-5">
-							<div class="left_img">
-								<img class="img-fluid" style="object-fit:cover; height: 300px;" src="images/npm.jpg" alt="">
+						<div class="row front projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" src="images/github.jpeg" alt="">
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h2 style="color: black;">lodashLite Package</h2>
-								<p style="font-size: 1rem;"> Small Package packed with mostly used functions. Functions includes of flattenDepth, createAlpha, isVow, orderBy, timeTaken, range, countsInList, flow, factors, isPrime. </p>
-								<ul class="list">
-									<li><span style="font-size: 1rem;">Tech Stack</span>: <b> NodeJS </b> </li>
-								</ul>
-								<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
-									<a href="https://www.npmjs.com/package/lodashlite" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
-									<a href="https://github.com/Hamsa-Vardhan/lodashLite" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">Github Replica</h2>
+									<p style="font-size: 1rem;">we can search for a repo or a user after entering to webapp. If wanted to know more user will be redirected to original repo. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> ReactJs </b> </li>
+									</ul>
+									<div style="margin-top:2rem;display: flex; flex-wrap: wrap; justify-content: space-around">
+										<a href="https://hava-github-replica.netlify.app/" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/github-replica" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/nytimes.jpeg" alt="">
-								<div class="projects_text">
-									<a href="https://hamsavardhan-nytimes-content.netlify.app/" target="_blank"><h4 style="color: white;">NY Times inshort</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/ny-times" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+						<div class="row package projects_item" style="margin-top: 5rem;min-height: 70vh;">
+							<div class="col-md-5">
+								<div class="left_img">
+									<img class="img-fluid" style="object-fit:cover; height: 300px;" src="images/npm.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="portfolio_right_text">
+									<h2 style="color: black;">lodashLite Package</h2>
+									<p style="font-size: 1rem;"> Small Package packed with mostly used functions. Functions includes of flattenDepth, createAlpha, isVow, orderBy, timeTaken, range, countsInList, flow, factors, isPrime. </p>
+									<ul class="list">
+										<li><span style="font-size: 1rem;">Tech Stack</span>: <b> NodeJS </b> </li>
+									</ul>
+									<div style="margin-top:2rem; display: flex; flex-wrap: wrap; justify-content: space-around;">
+										<a href="https://www.npmjs.com/package/lodashlite" class="banner_btn" style="font-size: 1rem; margin-top: 1rem;margin-bottom: 1rem;">visit site</a>
+										<a href="https://github.com/Hamsa-Vardhan/lodashLite" class="banner_btn" style="font-size: 1rem;margin-top: 1rem;margin-bottom: 1rem;">view in  git</a>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/cricket.jpeg" alt="">
-								<div class="projects_text">
-									<a href="https://hamsavardhan-cric-isfun.netlify.app/" target="_blank"><h4 style="color: white;">Mini Cricket</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/play-cricket" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+						<div class="row front projects_item">
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/nytimes.jpeg" alt="">
+									<div class="projects_text">
+										<a href="https://hamsavardhan-nytimes-content.netlify.app/" target="_blank"><h4 style="color: white;">NY Times inshort</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/ny-times" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/tictactoe.jpg" alt="">
-								<div class="projects_text">
-									<a href="https://hava-tictactoe.netlify.app/" target="_blank"><h4 style="color: white;">Tic Tac Toe</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/tic-tac-toe" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/cricket.jpeg" alt="">
+									<div class="projects_text">
+										<a href="https://hamsavardhan-cric-isfun.netlify.app/" target="_blank"><h4 style="color: white;">Mini Cricket</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/play-cricket" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/weather.jpeg" alt="">
-								<div class="projects_text">
-									<a href="https://hamsavardhan-allcountries-weather.netlify.app/" target="_blank"><h4 style="color: white;">Country Weather Details</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/country-weather" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/tictactoe.jpg" alt="">
+									<div class="projects_text">
+										<a href="https://hava-tictactoe.netlify.app/" target="_blank"><h4 style="color: white;">Tic Tac Toe</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/tic-tac-toe" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/scheduler.JPG" alt="">
-								<div class="projects_text">
-									<a href="https://hava-daysandtopics.netlify.app/" target="_blank"><h4 style="color: white;">Topic Scheduler</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/preSchedule/tree/master/pre-schedule" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/weather.jpeg" alt="">
+									<div class="projects_text">
+										<a href="https://hamsavardhan-allcountries-weather.netlify.app/" target="_blank"><h4 style="color: white;">Country Weather Details</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/country-weather" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6">
-							<div class="projects_item">
-								<img class="img-fluid" src="images/pricing.JPG" alt="">
-								<div class="projects_text">
-									<a href="https://hava-pricing-cards.netlify.app/" target="_blank"><h4 style="color: white;">Pricing Cards</h4></a>
-									<a class="project_btn" href="https://github.com/Hamsa-Vardhan/pricing-cards" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/scheduler.JPG" alt="">
+									<div class="projects_text">
+										<a href="https://hava-daysandtopics.netlify.app/" target="_blank"><h4 style="color: white;">Topic Scheduler</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/preSchedule/tree/master/pre-schedule" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<div class="projects_item">
+									<img class="img-fluid" src="images/pricing.JPG" alt="">
+									<div class="projects_text">
+										<a href="https://hava-pricing-cards.netlify.app/" target="_blank"><h4 style="color: white;">Pricing Cards</h4></a>
+										<a class="project_btn" href="https://github.com/Hamsa-Vardhan/pricing-cards" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> view in git</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -310,7 +320,14 @@
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('html, body').animate({
+					scrollTop: $('#projects').offset().top
+				}, 'slow');
+			});
+		</script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/stellar.js"></script>
